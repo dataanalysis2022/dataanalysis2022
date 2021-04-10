@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="utf-8">
+    	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title> Microsoft - Excel 2019. </title>
+	<meta name="description" content="Information Technology">
+    	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    	<meta name="author" content="GR8">
+    	<link rel="shortcut icon" href="https://krebner.com/networkplus.ico" />
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <script>
+  
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script> 
+  <style>
+    .azul {color: blue;}
+    .rojo {color:red;}
+    body {background-color: seagreen;}
+  </style>  
+</head>
+<body oncontextmenu="alert('Make it happen!');return false;" onselectstart="return false" ondragstart="return false" >
+<br>
+<div class="container text-center" style="background-color: rgb(255, 255, 255);background-image: linear-gradient(-90deg, yellow, lightblue, lightgreen);">
+    <br>
+	   <h1>Excel 2019 Step by Step.</h1>
+    <br>
+    <hr>
+    <h2 class="azul">Part 1: &nbsp; Create and format workbooks</h2> <hr>
+<h3 class="rojo">Chapter 1: &nbsp; Set up a workbook</h3>
+<h3>Explore the editions of Excel 2019</h3>
+<h3>Become familiar with new features in Excel 2019</h3>
+<h3>Create workbooks</h3>
+<h3>Modify workbooks</h3>
+<h3>Modify worksheets</h3>
+<h3>Merge and unmerge cells</h3>
+<h3>Customize the Excel 2019 app window</h3>
+<hr>
+<h3 class="rojo">Chapter 2: &nbsp; Work with data and Excel tables</h3>
+<h3>Enter and revise data</h3>
+<h3>Manage data by using Flash Fill</h3>
+<h3>Move data within a workbook</h3>
+<h3>Find and replace data</h3>
+<h3>Correct and expand upon data</h3>
+<h3>Define Excel tables</h3>
+<hr>
+<h3 class="rojo">Chapter 3: &nbsp; Perform calculations on data</h3>
+<h3>Name groups of data</h3>
+<h3>Create formulas to calculate values</h3>
+<h3>Summarize data that meets specific conditions</h3>
+<h3>Set iterative calculation options and enable or disable automatic calculation</h3>
+<h3>Use array formulas</h3>
+<h3>Find and correct errors in calculations</h3>
+<hr>
+<h3 class="rojo">Chapter 4: &nbsp; Change workbook appearance</h3>
+<h3>Format cells</h3>
+<h3>Define styles</h3>
+<h3>Apply workbook themes and Excel table styles</h3>
+<h3>Make numbers easier to read</h3>
+<h3>Change the appearance of data based on its value</h3>
+<h3>Add images to worksheets</h3>
+<hr>
+<h2 class="azul">Part 2: Analyze and present data</h2>
+<hr>
+
+<h3 class="rojo">Chapter 5: &nbsp; Manage worksheet data</h3>
+<h3>Limit data that appears on your screen</h3>
+<h3>Manipulate worksheet data</h3>
+<h3>Define valid sets of values for ranges of cells</h3>
+<hr>
+<h3 class="rojo">Chapter 6: &nbsp; Reorder and summarize data</h3>
+<h3>Sort worksheet data</h3>
+<h3>Sort data by using custom lists</h3>
+<h3>Organize data into levels</h3>
+<h3>Look up information in a worksheet</h3>
+<hr>
+<h3 class="rojo">Chapter 7: &nbsp; Combine data from multiple sources</h3>
+<h3>Use workbooks as templates for other workbooks</h3>
+<h3>Link to data in other workbooks and worksheets</h3>
+<h3>Consolidate multiple sets of data into a single workbook</h3>
+<hr>
+<h3 class="rojo">Chapter 8: &nbsp; Analyze alternative data sets</h3>
+<h3>Examine data by using the Quick Analysis Lens</h3>
+<h3>Define an alternative data set</h3>
+<h3>Define multiple alternative data sets</h3>
+<h3>Analyze data by using data tables</h3>
+<h3>Vary your data to get a specific result by using Goal Seek</h3>
+<h3>Find optimal solutions by using Solver</h3>
+<h3>Analyze data by using descriptive statistics</h3>
+<hr>
+<h3 class="rojo">Chapter 9: &nbsp; Create charts and graphics</h3>
+<h3>Create charts</h3>
+<h3>Perform business intelligence analysis using charts</h3>
+<h3>Customize chart appearance</h3>
+<h3>Find trends in your data</h3>
+<h3>Create combo charts</h3>
+<h3>Summarize your data by using sparklines</h3>
+<h3>Create diagrams by using SmartArt</h3>
+<h3>Create and manage shapes</h3>
+<h3>Create and manage mathematical equations</h3>
+<hr>
+<h3 class="rojo">Chapter 10: &nbsp; Use PivotTables and PivotCharts</h3>
+<h3>Analyze data dynamically by using PivotTables</h3>
+<h3>Filter, show, and hide PivotTable data</h3>
+<h3>Edit PivotTables</h3>
+<h3>Format PivotTables</h3>
+<h3>Create PivotTables from external data</h3>
+<h3>Create dynamic charts by using PivotCharts</h3>
+<hr>
+<h2 class="azul">Part 3: Collaborate and share in Excel</h2>
+<hr>
+<h3 class="rojo">Chapter 11: &nbsp; Print worksheets and charts</h3>
+<h3>Add headers and footers to printed pages</h3>
+<h3>Prepare worksheets for printing</h3>
+<h3>Print worksheets</h3>
+<h3>Print parts of worksheets</h3>
+<h3>Print charts</h3>
+<hr>
+<h3 class="rojo">Chapter 12: &nbsp; Automate repetitive tasks by using macros</h3>
+<h3>Enable and examine macros</h3>
+<h3>Create and modify macros</h3>
+<h3>Click a button to run a macro</h3>
+<h3>Run a macro when you open a workbook</h3>
+<h3>Insert form controls into a worksheet</h3>
+<hr>
+<h3 class="rojo">Chapter 13: &nbsp; Work with other Microsoft Office apps</h3>
+<h3>Include Office documents in workbooks and other files</h3>
+<h3>Create hyperlinks</h3>
+<h3>Paste charts into documents</h3>
+<hr>
+<h3 class="rojo">Chapter 14: &nbsp; Collaborate with colleagues</h3>
+<h3>Save workbooks for electronic distribution</h3>
+<h3>Manage comments</h3>
+<h3>Protect workbooks and worksheets</h3>
+<h3>Finalize workbooks</h3>
+<h3>Authenticate workbooks</h3>
+<h3>Save workbooks for the web</h3>
+<h3>Import and export XML data</h3>
+<h3>Work with OneDrive and Excel Online</h3>
+<hr>
+<h2 class="azul">Part 4: Perform advanced analysis</h2>
+<hr>
+<h3 class="rojo">Chapter 15: &nbsp; Perform business intelligence analysis</h3>
+<h3>Define a Data Model</h3>
+<h3>Define relationships between tables</h3>
+<h3>Analyze data by using Power Pivot</h3>
+<h3>View data by using timelines</h3>
+<h3>Bring in external data by using Power Query</h3>
+<hr>
+<h3 class="rojo">Chapter 16: &nbsp; Create forecasts and visualizations</h3>
+<h3>Create forecast worksheets</h3>
+<h3>Define and manage measures</h3>
+<h3>Define and display key performance indicators</h3>
+<h3>Create 3D maps</h3>
+<br>
+</div>
+
+<br>
+<a href="https://www.microsoftpressstore.com/store/microsoft-excel-2019-step-by-step-9781509307678" target="_blank">
+  <img src="1509306161.jpg" class="img-fluid d-block mx-auto"   >
+</a>
+ 
+<br>   
+    
+    <!--
+style="background-color: rgb(255, 255, 255);background-image: linear-gradient(-90deg, yellow, lightblue, lightgreen);"
+-->
+    
+<!-- These Javascript links are required for the proper functionality of Bootstrap 4. 
+And they should always be placed at the very end, near to the closing body tag. Exactly where they are right now. -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
